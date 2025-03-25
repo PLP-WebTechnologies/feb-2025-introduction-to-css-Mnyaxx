@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">Assignment</div>
+    <ol type="I" start="1" class="styled-list">
+        <li>Javascript</li>
+        <li>React</li>
+        <li>Python</li>   
+        <li>Java</li>
+    </ol>
+
+    <div class="image-container">
+        <img src="images/green pic.jpg" alt="An External Photo" width="450" height="550">
+    </div>
+
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Email</th>
+                <th>Mobile</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mr. Eddy</td>
+                <td>Nairobi, Kenya</td>
+                <td>blahblah@email.com</td>
+                <td>+25470000000</td>
+            </tr>
+            <tr>
+                <td>Mr. Gerald</td>
+                <td>London, UK</td>
+                <td>blahblah@email.com</td>
+                <td>+25470000000</td>
+            </tr>
+            <tr>
+                <td>Mr. George</td>
+                <td>Los Angeles, USA</td>
+                <td>blahblah@email.com</td>
+                <td>+25470000000</td>
+            </tr>
+            <tr>
+                <td>Mr. John</td>
+                <td>Paris, France</td>
+                <td>blahblah@email.com</td>
+                <td>+25470000000</td>
+            </tr>
+            <tr>
+                <td>Mr. David</td>
+                <td>Beijing, China</td>
+                <td>blahblah@email.com</td>
+                <td>+25470000000</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form class="styled-form">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="country">Select Country:</label>
+        <select id="country" name="country" required>
+            <option value="">--Choose--</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="UK">UK</option>
+        </select>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female" required>
+        <label for="female">Female</label>
+
+        <label>Interests:</label>
+        <input type="checkbox" id="sports" name="interests" value="Sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="interests" value="Music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="reading" name="interests" value="Reading">
+        <label for="reading">Reading</label>
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
